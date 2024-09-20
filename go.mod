@@ -1,4 +1,4 @@
-module github.com/itstalhaperacha/itstalhaperacha.github.io.git
+module github.com/itstalhaperacha/itstalhaperacha.github.io
 
 go 1.23.1
 
