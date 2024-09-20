@@ -1,0 +1,100 @@
+# section information
+section:
+  name: About # Title of section (default: "")
+  id: about # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/about.html # allows you to point to a specific template.
+
+# your designation
+designation: Senior Software Engineer
+# your company information
+company:
+  name: Optics11 Life.
+  url: "https://www.optics11life.com"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I develop advanced embedded solutions and design robust LabVIEW systems, driven by my commitment to continuous learning and technical problem-solving. I specialize in crafting efficient software architectures that simplify complex challenges.'
+
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "talhaperacha@me.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/itstalhaperacha"
+
+#- name: Stackoverflow
+#  icon: "fab fa-stack-overflow"
+#  url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/talhaperacha/"
+
+#- name: Twitter
+#  icon: "fab fa-twitter"
+ # url: "#"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/itstalhaperacha"
+
+#- name: Instagram
+#  icon: "fab fa-instagram"
+#  url: "#"
+
+#- name: ResearchGate
+#  icon: "fab fa-researchgate"
+#  url: "https://www.researchgate.net/profile/john-doe"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Certified LabVIEW Architect
+  url: "https://www.credly.com/badges/0fbfc6ae-a114-4e32-bcdc-9da78e1c4f8a/public_url"
+  badge: "https://images.credly.com/size/110x110/images/666f2bf0-46f6-4e25-b95b-ddf5e68b84b0/36015_Certificate_Badges_FINAL__1__NI_Instructor_v5_copy.png"
+
+- type: certification
+  name: Certified LabVIEW Developer
+  url: "https://www.credly.com/badges/4f30a041-9e44-4b28-bb6c-39e1bb95e870/public_url"
+  badge: "https://images.credly.com/size/340x340/images/2edb5b1a-9414-44e1-8519-c774fc6dd079/36015_Certificate_Badges_FINAL__1__NI_Instructor_v5.png"
+
+
+- type: soft-skill-indicator
+  name: Resilience
+  percentage: 95
+  color: green
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 90
+  color: yellow
+
+
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
