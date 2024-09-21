@@ -1,6 +1,6 @@
-baseURL: https://example.org/
+baseURL: https://talhaperacha.me/
 languageCode: en-us
-title: My New Hugo Site
+title: Talha Peracha Portfolio and Blog
 
 module:
   imports:
