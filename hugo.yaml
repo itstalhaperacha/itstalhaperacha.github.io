@@ -21,11 +21,29 @@ params:
 #    main: images/main-logo.png
 #    inverted: images/inverted-logo.png
 #    favicon: images/favicon.png
+
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
   features:
   # Enable and configure blog posts
     blog:
       enable: true
       showAuthor: true # shows the post author (defaults true)
+      # Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
+        # tumblr: true
+        # pocket: true
+        # diaspora: true
+        # mastodon: true
+
     toc:  # table of contents
       enable: true
     # Here, we have configured our TOC to show all headings from h2 to h6.  
@@ -34,6 +52,62 @@ params:
     #    startLevel: 2
     #    endLevel: 6
     #    ordered: false  
+
+        # Enable dark theme
+    darkMode:
+      enable: false
+
+  # Enable and configure portfolio
+    portfolio:
+      enable: true
+
+    # Enable Analytics
+    analytics:
+      enabled: true
+      services:
+        # Google Analytics
+        google:
+          id: G-S8TCTKCQ0R
+        # # CounterDev
+        # counterDev:
+        #   id: <your counterdev id>
+        # # GoatCounter
+        # goatCounter:
+        #   code: <your goat counter code>
+        # # Matomo / Piwik
+        # matomo:
+        #   instance: matomo.example.com
+        #   siteId: 1 # Or any other number
+
+
+  # Provide footer configuration.
+  footer:
+    enable: true
+    # You can provide your custom footer template using this option.
+    # Put your template in "layouts/partials" folder of your repo.
+    template: footer.html
+    # Show/hide navigation in the footer. Default is "true".
+    navigation:
+      enable: true
+      # show custom menus in the footer
+      customMenus: true
+    # Show/hide "Contact Me" section in the footer. Default is "true".
+    contactMe:
+      enable: true
+    # Show/hide credentials section in the footer. Default is "true".
+    credentials:
+      enable: false # this one shows the powered by hugo and icon and copyright 2024 at the bottom
+
+    # Show/hide newsletter section in the footer. Default is "true".
+    # Currently, it supports "mailchimp".
+    newsletter:
+      enable: false
+      # provider: mailchimp
+      # mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+
+    # Show/hide disclaimer notice in the footer. Default is "false".
+    disclaimer:
+      enable: true
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Personal Portfolio and Blog Site of Talha Peracha. 
