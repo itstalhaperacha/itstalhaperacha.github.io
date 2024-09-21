@@ -1,0 +1,54 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: C++
+  logo: /images/sections/skills/cppicon.png
+  summary: "Good at designing C++ embedded software for microcontrollers and microprocessors. Familiar with the C++ standard library and the C++20 standard."
+  #url: "https://kubernetes.io/"
+- name: C
+  logo: /images/sections/skills/cicon.png
+  summary: "Love to design bare-metal C software for medical and industrial applications. Familiar with the C standard library and the C11 standard."
+
+- name: LabVIEW
+  logo: /images/sections/skills/LabVIEWicon.png
+  summary: "Certified LabVIEW Architecht with experience in designing LabVIEW desktop applications and test systems."
+
+- name: Python
+  logo: /images/sections/skills/pythonicon.png
+  summary: "Capable of using Python for scripting and data analysis. Experience with PyQt based desktop applications."
+
+- name: OOP - Software Architecture
+  logo: /images/sections/skills/oopicon.png
+  summary: "Skilled at designing object-oriented software architectures utilizing design patterns and best practices."
+
+- name: ARM Cortex
+  logo: /images/sections/skills/armcortexicon.png
+  summary: "Experience with ARM Cortex M0, M3, M7, A7 and A53 microcontrollers as well as Zynq Ultrascale+ MPSOC"
+
+- name: Agile
+  logo: /images/sections/skills/agileicon.png
+  summary: "Experience working in Agile teams and practicing Scrum and Kanban methodologies."
+
+- name: JIRA
+  logo: /images/sections/skills/jiraicon.png
+  summary: "Highly efficient in project management using JIRA and Confluence for tracking and documentation."
+
+- name: Git
+  logo: /images/sections/skills/giticon.png
+  summary: "Proficient in using Git for version control. Moreover, I have experience with setting up git workflow and Github enterprise management."
+
+
+
+
+
